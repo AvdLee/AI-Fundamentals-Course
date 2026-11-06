@@ -1,0 +1,9 @@
+{
+  "name": "looply-landing-starter",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Starter version of the Looply landing page for the AI Fundamentals course.",
+  "scripts": {
+    "start": "npx serve ."
+  }
+}

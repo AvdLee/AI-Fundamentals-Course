@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #999999;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 24px;
+}
+
+.logo {
+  font-weight: bold;
+  color: #666666;
+}
+
+.links a {
+  margin-left: 16px;
+  color: #aaaaaa;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 24px;
+}
+
+.hero h1 {
+  color: #777777;
+  font-size: 40px;
+}
+
+button {
+  background: #b5e0b5;
+  color: #ffffff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.features,
+.pricing {
+  padding: 40px 24px;
+  text-align: center;
+}
+
+.feature-list {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.icon {
+  font-size: 32px;
+}
+
+.footer {
+  padding: 24px;
+  text-align: center;
+  font-size: 12px;
+  color: #cccccc;
+}
