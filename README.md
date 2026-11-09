@@ -8,14 +8,14 @@ This repository contains the sample project you apply the lessons to. It's optio
 
 ## The sample project
 
-The project is the landing page of **Looply**, a fictional habit-tracking app. It's built with plain HTML, CSS, and JavaScript, so there's no framework to learn and nothing to install besides the agent tool you want to use. Every developer has a browser, and that's all you need.
+The project is the landing page of **Looply**, a fictional habit-tracking app. It's built with plain HTML, CSS, and JavaScript, so there's no framework to learn and nothing to install besides the agent tool you want to use. The only exception is the validation setup in `final/`, which needs `npm install` once before you run `scripts/validate.sh`. Every developer has a browser, and that's all you need.
 
 The repository contains two versions of the same page:
 
 | Folder | What it is |
 | --- | --- |
 | `starter/` | The version you begin with. It works, but it has rough edges: weak copy, missing metadata, accessibility issues, and no agent instructions. Finding and fixing those is part of the course. |
-| `final/` | The improved version, with better copy and structure, proper metadata, an `AGENTS.md` file, and reusable agent skills in `.agents/skills/`. Use it to compare your own results. |
+| `final/` | The improved version, with better copy and structure, proper metadata, an `AGENTS.md` file, reusable agent skills in `.agents/skills/`, and a validation loop with a linter, a formatter, a test, and `scripts/validate.sh`. Use it to compare your own results. |
 
 Your result will not match `final/` exactly, and that's expected. Agents rarely produce the same output twice, and your decisions shape the outcome. What matters is whether your version meets the review criteria from the lessons.
 

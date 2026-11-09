@@ -28,9 +28,11 @@ If any of these are missing, ask for them first.
    - Exactly one primary call to action.
 4. Reuse `src/main.css` classes. Only add new styles when no existing class fits.
 5. Add the new page to the navigation of **all** existing pages, and mark it with `aria-current="page"` on the new page itself.
+6. Add the new page to the `pages` list in `tests/pages.test.js`, so the validation loop checks it too.
 
 ## Validation
 
+- Run `scripts/validate.sh` and fix everything it reports.
 - Open the new page in a browser and verify layout at desktop and mobile width.
 - Verify all navigation links work in both directions.
 - Check the copy against the tone rules in `AGENTS.md`: concrete, benefit-driven, no filler.

@@ -37,16 +37,21 @@ This is the landing page for Looply, a fictional habit-tracking app used in the 
 - Keep JavaScript minimal and progressive: pages must work without it.
 - No `console.log` statements in committed code.
 - No inline event handlers (`onclick="..."`); use `addEventListener`.
+- No new dependencies unless they were explicitly decided on. The only dependencies are the linting and formatting tools in `devDependencies`.
 
 ## Adding a New Page
 
-Follow the `new-marketing-page` skill in `.agents/skills/new-marketing-page/`.
+Follow the `new-marketing-page` skill in `.agents/skills/new-marketing-page/`. Add every new page to the `pages` list in `tests/pages.test.js`.
 
 ## Validation
 
-Before finishing a task:
+Before finishing a task, run `scripts/validate.sh`. It runs the linter, the formatter, and the tests. If it fails, fix every finding and failing test, then run it again. Stop after ten attempts and report what still fails, including the command you ran and its result.
+
+Then:
 
 1. Open every changed page in a browser and verify it renders correctly.
 2. Check the required meta tags are present and unique per page.
 3. Verify navigation links between all pages still work.
 4. Check heading order and contrast when HTML or CSS changed.
+
+Before a release, use the `run-release-validation` skill in `.agents/skills/run-release-validation/`.
