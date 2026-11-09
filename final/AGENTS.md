@@ -54,4 +54,6 @@ Then:
 3. Verify navigation links between all pages still work.
 4. Check heading order and contrast when HTML or CSS changed.
 
+After a task that changed HTML, CSS, or JavaScript, ask the `looply-reviewer` subagent to review the changed files. Name the files in your prompt, because the subagent starts without the context of the task. Weigh its feedback before deciding what to build in.
+
 Before a release, use the `run-release-validation` skill in `.agents/skills/run-release-validation/`.

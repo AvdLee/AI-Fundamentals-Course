@@ -15,7 +15,7 @@ The repository contains two versions of the same page:
 | Folder | What it is |
 | --- | --- |
 | `starter/` | The version you begin with. It works, but it has rough edges: weak copy, missing metadata, accessibility issues, and no agent instructions. Finding and fixing those is part of the course. |
-| `final/` | The improved version, with better copy and structure, proper metadata, an `AGENTS.md` file, reusable agent skills in `.agents/skills/`, and a validation loop with a linter, a formatter, a test, and `scripts/validate.sh`. Use it to compare your own results. |
+| `final/` | The improved version, with better copy and structure, proper metadata, an `AGENTS.md` file, reusable agent skills in `.agents/skills/`, a custom review subagent in `.claude/agents/` (with a Codex version in `.codex/agents/`), and a validation loop with a linter, a formatter, a test, and `scripts/validate.sh`. Use it to compare your own results. |
 
 Your result will not match `final/` exactly, and that's expected. Agents rarely produce the same output twice, and your decisions shape the outcome. What matters is whether your version meets the review criteria from the lessons.
 
